@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sample LP</title>
+        <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <!--header-->
+        <header id="header">
+            <div class="header-logo">
+                <h2 style="font-family: 'Mansalva', cursive;">GREEN CAFE</h2>
+            </div>
+            <div style="font-family: 'Kosugi Maru', sans-serif;" class="header-contact">
+                <p class="haeader-contact_text">TEL 00-0000-0000<br>
+                   (受付時間　平日10:00~17:00)
+                </p>
+                <a href="#contact-form" class="header-contact_link">お問い合わせ</a>
+            </div>
+        </header>
+        
+        <!--hero-->
+        <div class="hero-img"></div>
+        <div style="font-family: 'Kosugi Maru', sans-serif;" class="img-center_text">
+            <h2>こだわりの素材をあなたに</h2>
+        </div>
+        
+        <!--main-->
+        <main id="main">
+            <section class="top-menus ">
+                <nav>
+                    <ul style="font-family: 'Mansalva', cursive;" class="menu-nav">
+                        <li class="menu-list"><a href="#" class="menu-item">1.FOODS<br>〜食べ物はこちらから〜</a></li>
+                        <li class="menu-list"><a href="#" class="menu-item">2.DRINKS<br>〜飲み物はこちらから〜</a></li>
+                        <li class="menu-list"><a href="#" class="menu-item">3.ACCESS<br>〜交通アクセスはこちら〜</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <div style="font-family: 'Kosugi Maru', sans-serif;" class="contents">
+               <h1 class="content-title">オススメ商品</h1>
+                <div class="box">
+                    <div class="content-text">
+                        <h2>抹茶セット</h2>
+                        <p>&nbsp;&nbsp;厳選した抹茶を使ったセットです。ご自身で抹茶を点てたい場合は、<br>ご注文時に「自分で点てる」と店員に一言申してください。<br>
+                           &nbsp;&nbsp;又、お出しする抹茶は「濃茶」ですので菓子は「主菓子」となります。</p>
+                        <p>お値段&nbsp;&nbsp;¥1,300</p>
+                    </div>
+                    <div class="content-img"><img src="./images/menu1.png" alt=""></div>
+                </div>
+                <div class="box">
+                    <div class="content-text">
+                        <h2>タピオカミルクティー</h2>
+                        <p>&nbsp;&nbsp;巷で話題のタピオカミルクティーを当店でも始めました！当店の自慢の<br>タピオカミルクティーは他店と違い砂糖を使用せず、ミルクの甘さのみ<br>ですので、スッキリした飲み口です。是非、違いを確かめてください。</p>
+                        <p>お値段&nbsp;&nbsp;¥650</p>
+                    </div>
+                    <div class="content-img"><img src="./images/menu2.png" alt=""></div>
+                </div>
+                <div class="box">
+                    <div class="content-text">
+                        <h2>三色団子</h2>
+                        <p>&nbsp;&nbsp;選び抜かれた餅米を使ってお作りした一品です。ドリンクに合うように作ってます。<br>団子の中にはあんこが入っており、小豆本来の甘さを生かしております。<br>&nbsp;&nbsp;※本商品は3本セットです。</p>
+                        <p>お値段&nbsp;&nbsp;¥500</p>
+                    </div>
+                    <div class="content-img"><img src="./images/menu3.png" alt=""></div>
+                </div>
+            </div>
+            <div style="font-family: 'Kosugi Maru', sans-serif;" class="contact">
+                <form action="">
+                    <h1 class="form-title" id="contact-form">お問い合わせ</h1>
+                    <div class="form" >
+                        <p>お名前&nbsp;&nbsp;/&nbsp;&nbsp;会社名</p>
+                        <input class="input-name form-input form-content" type="text" name="name" placeholder="お名前 / 会社名">
+                        <p>メールアドレス</p>
+                        <input class="input-email form-input form-content" type="text" name="emai" placeholder="example@.com">
+                        <p>お問い合わせ内容</p>
+                        <textarea class="textarea form-content" name="textarea"cols="60" rows="20" placeholder="お問い合わせ内容"></textarea>
+                        <button class="input-submit" type="submit" name="submit" value="送信">送信</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        
+        <!--footer-->
+        <footer style="font-family: 'Mansalva', cursive;" class="footer" id="footer">
+            Copyright © GREEN CAFE. All Rights Reserved.
+        </footer>
+        
+        <script
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
